@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra o Easter Egg</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            font-size: 0.7em
+        }
+        a{
+            color: #202124;
+            text-decoration: none;
+        }
+        a:visited{
+            color: #6001D2;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: #5b5a63;
+        }
+        .especial::before{
+            content: '»'
+        }
+        .especial::after{
+            content: '«'
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Descubra o Easter Egg</h1>
+    <div>Passe o mouse aqui
+        <p>Parabéns! Você descobriu o easter egg!</p>
+    </div>
+    <h1>Acesse nossos links!</h1>
+
+    <ul>
+        <li><p><a href="https://youtu.be/4C3m0rIiOg0" target="_blank">Escute Take it, no Youtube!</a></p></li>
+        <li><p><a href="https://www.cursoemvideo.com/cursos/" target="_blank" class="especial">Assista o curso em vídeo</a></p></li>
+        <li><p><a href="https://www.youtube.com/watch?v=JkDLsq9lzsk&list=RDMMeLvapt_JYHM&index=10" target="_blank">Pale seas no Youtube</a></p></li>
+    </ul>
+</body>
+</html>
