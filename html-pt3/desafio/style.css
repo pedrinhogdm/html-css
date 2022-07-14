@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
 
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif
@@ -10,10 +10,18 @@
 
 }
 
+html, body{
+    min-height: 100%;
+    display: block;
+    background-color: grey;
+    background-image: url(imagens/background001.jpg);
+    
+}
+
 header{
     background-color: black;
     
-    margin: -85px -10px 0px -8px; 
+    margin: -85px -8px 0px -8px; 
 }
 
 h1#titulo{
@@ -21,7 +29,18 @@ h1#titulo{
     padding-top: 50px;
     text-align: center;
     font-size: 6em;
-    font-family: var(--fonte2)
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 p#credito{
@@ -29,8 +48,34 @@ p#credito{
     text-align: center;
     margin-top: -75px;
     padding-bottom: 40px;
+    font-size: small;
 }
 
 section{
-    font-family: var(--fonte1);
+    font-family: 'Sriracha', cursive;
+    font-size: 2em;
+    padding-left: 35px;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: block;
+}
+
+.branco{
+    background-color: white;
+    margin: -18px -8px 0px -10px
+}
+
+.foto{
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 500px;
+    color: white;
+    margin: 40px 0px 40px 20px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0px -8px -10px -8px;
 }
