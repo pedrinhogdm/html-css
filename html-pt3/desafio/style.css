@@ -2,33 +2,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
 
-:root{
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif
-    --fonte2: font-family: 'Passion One', cursive;
-    --fonte3: 'Sriracha', cursive
-
-
-}
-
 html, body{
-    min-height: 100%;
-    display: block;
+    min-height: 100vh;
     background-color: grey;
-    background-image: url(imagens/background001.jpg);
-    
+    margin-top: 0px;
 }
 
 header{
     background-color: black;
-    
-    margin: -85px -8px 0px -8px; 
+    text-align: center;
+    margin-top: -15vh;
+    margin-bottom: -10vh;
+    margin-right: -8px;
+    margin-left: -8px;
+
 }
 
 h1#titulo{
     color: white;
     padding-top: 50px;
-    text-align: center;
-    font-size: 6em;
+    font-size: 10vw;
     font-family: 'Passion One', cursive;
     font-variant: small-caps;
 }
@@ -45,32 +38,48 @@ a:hover{
 
 p#credito{
     color: white;
-    text-align: center;
-    margin-top: -75px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     font-size: small;
 }
 
 section{
     font-family: 'Sriracha', cursive;
-    font-size: 2em;
-    padding-left: 35px;
+    font-size: 3vw;
     line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    display: block;
+}
+
+section > p{
+    padding-bottom: 20px;
 }
 
 .branco{
     background-color: white;
-    margin: -18px -8px 0px -10px
+    margin: -18px -8px 0px -10px;
+    padding-left: 30px;
 }
 
 .foto{
     background-color: rgba(0, 0, 0, 0.514);
-    width: 500px;
+    display: inline-block;
     color: white;
     margin: 40px 0px 40px 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+section#ft1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#ft2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer{
